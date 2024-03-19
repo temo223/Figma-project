@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .navbar-ul li a {
+    color: black;
+  }
+  
+  .container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+
+  .container-Insidecontent  {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  
+
+
+  header {
+    background-color: #f2f2f2; /* Set the background color to #f2f2f2 */
+    color: black; /* Set text color to contrast with the background */
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 48px; /* Set the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .navbar-ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-ul li {
+    margin: 0 10px;
+  }
+  
+  .sell-button button {
+    background-color: #29B24E; /* Set button background color */
+    color: white;
+    padding: 13px 26px; /* Set padding */
+    border: none;
+    border-radius: 12px; /* Set border radius */
+    cursor: pointer;
+  }
+
+  .flex-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  .rectangle-402 {
+    max-width: 395px;
+    height: auto;
+    border-radius: 24px;
+    border: 1px solid #ccc; /* Optional: Add border for visualization */
+    background-color: #F8F8F8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    
+  }
+
+  
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-container img {
+    max-width: 1225px;
+    width: 100%;
+    border-radius: 25px; /* Adjust the border radius as needed */
+    overflow: hidden; /* Hide overflow content to ensure rounded corners are visible */
+    display: block; /* Ensure the image takes up the full width of the container */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 23%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .overlay-text input[type="text"] {
+    max-width: 324px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 8px;
+    height: 48px; /* Adjust height as needed */
+    background-color: #ffffff; /* Set background color to white */
+  }
+  
+  .overlay-text.relative {
+    position: relative; /* Add relative positioning to the overlay-text container */
+  }
+
+  .frame-icon {
+    position: absolute;
+    top: 85%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-search-1399-475061.png'); /* Replace with your frame icon */
+    background-size: cover;
+    cursor: pointer; /* Optional: Change cursor to indicate interactivity */
+  }
+
+  .overlay-text input[type="text"] {
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .overlay-text p {
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  .location {
+  margin: 20px; /* Add margin to all sides */
+
+  }
+  
+  .location select {
+    width: 331px; /* Set the width */
+    height: 48px; /* Set the height */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+
+  .property {
+    margin: 20px; /* Add margin to all sides */
+}
+  
+  .price-range {
+    margin: 20px 20px 20px 2px; /* top right bottom left */
+
+  }
+
+  .location p,
+.property p,
+.price-range p {
+  margin-bottom: 10px; /* Add spacing between headings and elements */
+}
+
+
+
+/* Trending ads*/
+
+.trending-ads {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 20px; /* Add space between articles */
+
+}
+
+.ads-h2 {
+  /* UI Properties */
+  margin-top: 32px;
+
+}
+
+.popular-articles h2 {
+  /* UI Properties */
+  
+
+}
+
+
+
+
+.article {
+  position: relative; /* Set position to relative to allow absolute positioning inside */
+  flex-direction: column;
+  box-sizing: border-box; 
+  border: 1px solid #ccc; 
+  border-radius: 25px; 
+  padding: 20px; 
+  display: inline-block;
+  width: 395px;
+  justify-content: flex-start; /* Align items to the start */
+
+}
+
+
+
+
+.article-image {
+  max-width: 363px;
+  width:100%;
+  border-radius: 15px; /* Adjust the value as needed for the desired roundness */
+
+}
+
+.vip-text {
+  position: absolute; /* Position relative to the .article container */
+  top: 40px; /* Adjust the distance from the top */
+  left: 35px; /* Adjust the distance from the left */
+  color: white; /* Set text color */
+  font-weight: bold; /* Make text bold */
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 10px 18px; /* Add padding around the text */
+  border-radius: 40px; /* Set border radius for rounded corners */
+  background-color: #29B24E; /* Set background color to green */  
+}
+
+.article h3 {
+  margin-bottom: 8px; /* Add space below the heading */
+
+}
+
+.article p {
+  /* font stylees */
+ 
+}
+
+.price-container {
+  display: flex; /* Make container flex */
+  justify-content: flex-end; /* Align items to the end (right) */
+  align-items: center; /* Align items vertically */
+  
+}
+
+
+.price {
+  color: #29B24E; /* Change price color */
+}
+
+
+
+.additional-info {
+  border-top: 2px solid #CFEAD6; /* Add border between price and additional info */
+  display: flex;
+  margin-top: 20px; /* Add margin to separate from the price */
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.additional-info p {
+  margin-top: 20px;
+}
+
+
+
+
+body   {
+background-color: #f2f2f2;
+
+}
